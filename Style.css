@@ -1,0 +1,41 @@
+/* 
+    Title: Location Map;
+    Version: 1.0 v;
+    Developer: Ashkan Salehpour;
+    Modified Date: 10/16/2022;
+    Description: Useful map location for your website, which may become handy... 
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: #251c42;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+
+}
+/* Give style to map */
+iframe{
+    width: 80%;
+    height: 500px;
+    filter: invert(100%);
+    /* You can add  filter: invert(100%); for change to night mode */
+    
+
+}
+
